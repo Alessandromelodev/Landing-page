@@ -1,0 +1,85 @@
+.cards-container {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+}
+
+/*cards*/
+
+.cards-item {
+    width: 350px;
+    height: 300px;
+
+    padding: 15px 15px 0 15px;
+
+    background-color: white;
+}
+
+/* outros cursos*/
+.other-courses {
+    width: 350px;
+    height: 300px;
+
+    padding: 50px 50px 0px 50px;
+
+    text-align: start;
+
+    background: linear-gradient(to top, var(--color-base1), var(--color-base2), var(--color-button-header));
+}
+
+.other-courses h1 {
+    font-size: 2.0em;
+    color: white;
+}
+
+/**/
+/**/
+.cards-item img {
+    background: linear-gradient(30deg, #0fb871, #16f99c);
+    border-radius: 30%;
+
+    padding: 2px;
+
+}
+
+.cards-item h1 {
+    font-size: 30px;
+    color: #0fb871;
+
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+.cards-item h3 {
+    color: #6e6a6a;
+    font-size: 1.1em;
+    font-weight: normal;
+
+}
+
+.cards-item button {
+    font-size: 18px;
+    font-weight: bold;
+
+    color: #0fb871;
+    background: #e5e9e7;
+
+    width: 150px;
+    height: 50px;
+
+    border-radius: 30px;
+    border: none;
+
+    margin-top: 10px;
+
+    cursor: pointer;
+}
+
+/*cards----*/

@@ -1,0 +1,113 @@
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    color: var(--color-base2);
+
+    margin-top: 50px;
+}
+
+form{
+    order:2;
+}
+
+.img-form{
+    order: 1;
+}
+
+.img-form img{
+    width: 100%;
+}
+
+.form .form-item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form .registration span{
+    font-size: 3em;
+    
+    font-weight: bold;
+}
+.form form{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+
+ 
+}
+
+form input[type="text"],/* edições de imputs*/
+input[type="tel"],
+input[type="email"]{
+    
+    width:20vw;
+    height: 40px;
+
+    min-width: 100%;
+    
+    border-radius: 5px;
+    border: none;
+
+    font-size: 1.1em;
+    padding-left: 5px;
+
+    transition: 0.4s;
+}
+
+input:focus { 
+    outline: 0;
+    background-color: rgb(224, 223, 221);
+    
+    transform: scale(98%);
+
+    transition: 0.4s;
+    }
+
+form label{
+    font-size: 25px;
+}
+
+form .gender{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+form .gender label{
+   font-size: 20px;
+}
+
+form .submit button{   /*button submit*/
+    font-size: 18px;
+    font-weight: bold;
+
+    color:white;
+    background:var(--color-button-header);
+
+    width: 160px;
+    height: 50px;
+
+    border-radius: 5px;
+    border: none;
+
+    cursor: pointer;
+    
+    transition:all 0.3s ;
+    
+}
+
+.submit button:hover{
+    scale: 95%;
+    
+    transition:all 0.5s  ;
+
+    opacity: 80%;
+}
+/*-------------*/

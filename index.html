@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/main-section-action.css" />
+    <link rel="stylesheet" href="./style/section-cards.css" />
+    <link rel="stylesheet" href="./style/media-query.css" />
+    <link rel="stylesheet" href="./style/form.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <title>Landing page</title>
+  </head>
+  <body>
+    <div id="container">  <!--Container-->
+      <header>
+        <div class="logo"><h3>Logotipo</h3></div>
+
+        <div class="button-action">
+          <button>Vamos começar</button>
+        </div>
+      </header>
+
+      <main class="main-section"> <!--main-->
+        <section class="action">
+          <div class="text-action">
+            <h1>Maximize a habilidade, minimize o orçamento</h1>
+            <h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              tenetur molestiae pariatur. Deleniti sapiente esse, provident nam
+              deserunt consectetur est, dolore sunt vero eaque fugiat!
+            </h3>
+
+            <button>Vamos começar</button>
+          </div>
+          <div class="img-action">
+            <img
+              src="./img-main/main-img.png"
+              alt="imagem de uma mulher no computador"/>
+          </div>
+        </section>
+
+        <section>
+                                  <!--seção cards-->
+          <div class="cards-container">
+            <div class="other-courses">
+              <h1>Veja os cursos mais populares!</h1>
+            </div>
+
+            <div class="cards-item">
+              <img
+                src="./card-icons/directions_run-white-bold.svg"
+                alt="icone personagem correndo"
+                style="width: 50px"/>
+
+              <h1>Animação</h1>
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                incidunt praesentium veniam quod, rerum, saepe officiis nulla
+                iusto consequatur aliquam similique consectetur autem, eum iure?
+              </h3>
+
+              <button>Ler mais</button>
+            </div>
+
+            <div class="cards-item">
+              <img
+                src="./card-icons/photo_camera.svg"
+                alt="icone camera"
+                style="width: 50px"/>
+
+              <h1>Fotográfia</h1>
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                incidunt praesentium veniam quod, rerum, saepe officiis nulla
+                iusto consequatur aliquam similique consectetur autem, eum iure?
+              </h3>
+
+              <button>Ler mais</button>
+            </div>
+
+            <div class="cards-item">
+              <img
+                src="./card-icons/grid_view.svg"
+                alt="icone grid"
+                style="width: 50px"/>
+
+              <h1>Designer</h1>
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                incidunt praesentium veniam quod, rerum, saepe officiis nulla
+                iusto consequatur aliquam similique consectetur autem, eum iure?
+              </h3>
+
+              <button>Ler mais</button>
+            </div>
+
+            <div class="cards-item">
+              <img
+                src="./card-icons/shopping_bag.svg"
+                alt="icone sacola"
+                style="width: 50px"/>
+
+              <h1>Vendas</h1>
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                incidunt praesentium veniam quod, rerum, saepe officiis nulla
+                iusto consequatur aliquam similique consectetur autem, eum iure?
+              </h3>
+
+              <button>Ler mais</button>
+            </div>
+            <div class="cards-item">
+              <img src="./card-icons/bitcoin.svg" alt="icone personagem correndo" style="width: 50px"/>
+
+              <h1>Crypto moedas</h1>
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                incidunt praesentium veniam quod, rerum, saepe officiis nulla
+                iusto consequatur aliquam similique consectetur autem, eum iure?
+              </h3>
+
+              <button>Ler mais</button>
+            </div>
+          </div>
+        </section>
+      </main>
+ 
+      <section class="form">    <!--Form-->
+        <div class="img-form">
+          <img src="./img-form/woman.png" alt=""/>
+        </div>
+
+        <form id="form">
+          <div class="registration">
+            <span>Cadastre-se</span>
+          </div>
+
+          <div class="form-item">
+            <label for="fist-name"> Nome</label>
+
+            <input type="text" name="fist-name" id="fist-name" placeholder="Primeiro nome" required/>
+
+          </div>
+
+          <div class="form-item">
+            
+            <label for="last-name"> Sobrenome</label>
+            
+            <input type="text" name="last-name" id="last-name" placeholder="Sobrenome" required/>
+          </div>
+
+          <div class="form-item">
+            <label for="email"> Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required/>
+          </div>
+
+          <div class="form-item">
+            <label for="telephone"> Celular</label>
+            <input type="tel" name="telephone" id="telephone" placeholder="(**)****-****" required/>
+          </div>
+
+          <div class="gender">
+            <label for="female"> Feminino</label>
+            <input type="radio" name="gender" id="female" required/>
+
+            <label for="male"> Masculino</label>
+            <input type="radio" name="gender" id="male" required/>
+
+            <label for="other"> outros</label>
+            <input type="radio" name="gender" id="other" required/>
+          </div>
+
+          <div class="submit">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+
+      <footer>  <!--Footer-->
+        <h1>Feita por</h1>
+        <h3>Alessandro Melo</h3>
+        <div class="credits">
+          <h3>Inspirada em</h3>
+          <a href="https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q"
+            target="_blank">skilled landing page</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

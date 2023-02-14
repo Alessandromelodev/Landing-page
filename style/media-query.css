@@ -1,0 +1,272 @@
+@media screen and (min-width:280px) and (max-width:480px) {
+    /*Celulares com telas pequenas*/
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .main-section .action {
+        margin-top: 60px;
+        text-align: start;
+
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+    .action .img-action {
+        /*imagem */
+        width: 100%;
+        height: 100%;
+
+        margin-top: 30px;
+
+        padding-top: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .action .img-action img {
+        width: 100%;
+
+    }
+
+    /*cards*/
+
+    .cards-container {
+        display: flex;
+        row-gap: 15px;
+    }
+
+    .cards-container .other-courses {
+        height: 150px;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0px 50px 0px 50px;
+
+        margin: 0 10px 0 10px;
+    }
+
+    .cards-container .cards-item {
+        height: 230px;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        flex-direction: column;
+
+        padding: 0px 10px 0 10px;
+        margin: 0 10px 0 10px;
+    }
+
+    .cards-container .cards-item img {
+        margin-top: 5px;
+    }
+
+    .cards-container .cards-item button {
+        margin-bottom: 7px;
+
+    }
+
+    .cards-item h1 {
+        font-size: 20px;
+    }
+
+    .cards-item h3 {
+        font-size: 0.9em;
+    }
+
+    /*fim cards*/
+
+    /*forms*/
+
+    form {
+        width: 90%;
+    }
+
+    .form .img-form {
+        display: none;
+    }
+
+
+    .form .registration {
+        font-size: 0.6em;
+    }
+
+    .form-item label {
+        font-size: 1em;
+    }
+
+    .form .gender label {
+        font-size: 1em;
+    }
+
+}
+
+/**/
+
+
+@media screen and (min-width:480px) and (max-width:749px) {
+    /*break médio dos cards*/
+
+
+
+    .main-section {
+        /*cards*/
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards-container .other-courses {
+        height: 150px;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0px 50px 0px 50px;
+        margin: 0 20px 0 20px;
+    }
+
+    .cards-container {
+        display: flex;
+        row-gap: 15px;
+    }
+
+    .cards-container .cards-item {
+        height: 230px;
+        width: 100%;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        flex-direction: column;
+
+        padding: 0px 50px 0 50px;
+        margin: 0 20px 0 20px;
+    }
+
+    .cards-item h1 {
+        font-size: 20px;
+    }
+
+    .cards-item h3 {
+        font-size: 0.9em;
+    }
+
+    /* fim cards*/
+
+    /*form*/
+    .form .img-form {
+        display: none;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    /*fim form*/
+
+}
+
+
+@media screen and (min-width:749px) and (max-width:939px) {
+    /*de 749px á 939px (dispositivos celulares medios)*/
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .action .img-action img {
+        max-width: 500px;
+    }
+
+    .action .img-action {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /*form*/
+
+    .form .img-form {
+        display: none;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    /*fim do form*/
+}
+
+@media screen and (min-width:939px) {
+    /*de 939px telas e monitores */
+
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 10% 10% 0 10%;
+
+    }
+
+    .action .text-action {
+        min-width: 47vw;
+    }
+
+    .main-section .action {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-section .action h1 {
+        font-size: 70px;
+    }
+
+    .main-section .action h3 {
+        font-size: 25px;
+    }
+
+    .img-action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action .img-action img {
+        max-width: 600px;
+        min-width: 400px;
+    }
+
+    .action .img-action {
+        width: 80%;
+        padding-right: 50px;
+    }
+
+}
